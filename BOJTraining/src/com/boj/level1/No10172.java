@@ -1,4 +1,4 @@
-package com.boj;
+package com.boj.level1;
 
 /**
  * 
