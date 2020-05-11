@@ -1,5 +1,7 @@
 package com.boj.level5;
 
+import java.util.Scanner;
+
 /**
  * 
  * @author POTATO 
@@ -29,7 +31,18 @@ package com.boj.level5;
 public class No10039 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		int result = 0;
+		for (int i = 0; i < 5; i++) {
+			int a = sc.nextInt();
+			if (a < 40) {
+				a = 40;
+			}
+			result += a;
+		}
+		System.out.println(result / 5);
+		sc.close();
 
 	}
 
